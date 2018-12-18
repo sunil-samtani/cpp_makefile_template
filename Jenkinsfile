@@ -1,7 +1,6 @@
 pipeline {
-    agent { label "advazvm" }
     stages {
-        stage('Preparation') {
+        stage('Compilation') {
             steps {
                 script {
 					sh "make clean all"
