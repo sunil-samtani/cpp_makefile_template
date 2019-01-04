@@ -6,7 +6,7 @@ pipeline {
                 script {
 					echo "test make"
 					sh "make clean all"
-					echo "make done"
+					echo "make done2"
                 }
             }
         }
