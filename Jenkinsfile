@@ -4,6 +4,7 @@ pipeline {
         stage('Compilation') {
             steps {
                 script {
+					echo "test make"
 					sh "make clean all"
                 }
             }
